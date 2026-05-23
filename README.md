@@ -55,7 +55,7 @@ terraform-az-fk-expressroute/
 
 ```hcl
 module "expressroute" {
-  source = "git::https://github.com/mlinxfeld/terraform-az-fk-expressroute.git?ref=v0.1.1"
+  source = "git::https://github.com/foggykitchen/terraform-az-fk-expressroute.git?ref=v0.1.1"
 
   name                = "er-fk-demo"
   location            = "westeurope"
